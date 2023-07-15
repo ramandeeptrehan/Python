@@ -17,3 +17,4 @@ print(items_data)
 #Iterate over items and print title of each question
 for item_data in items_data:
     print(item_data['title'])
+    print(item_data['link'])
