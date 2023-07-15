@@ -18,3 +18,11 @@ print(items_data)
 for item_data in items_data:
     print(item_data['title'])
     print(item_data['link'])
+
+#Fetch title and link of questions whose answer_count is 0
+for item_data in items_data:
+    if item_data['answer_count'] == 0:
+        print(item_data['title'])
+        print(item_data['link'])
+    else: 
+        print('skipped')
