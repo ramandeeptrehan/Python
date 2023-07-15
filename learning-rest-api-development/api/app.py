@@ -26,3 +26,4 @@ for item_data in items_data:
         print(item_data['link'])
     else: 
         print('skipped')
+    print() # to give space
