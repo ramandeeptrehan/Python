@@ -6,8 +6,8 @@ pip install -r requirements.txt
 ## For a Mac user, Python install packages are located locally at:
 /Users/<userName>/Library/Python/3.9/lib/python/site-packages
 
-## To run the server
-# python3 -m uvicorn main:app --reload
+# To run the server
+## python3 -m uvicorn main:app --reload
 
 NOTES:
 The command uvicorn main:app refers to:
