@@ -8,7 +8,8 @@ def get_stackoverflow_questions():
 response = get_stackoverflow_questions()
 print(response) #just gives the response code
 data = response.json() #exactly what we see in POSTMAN
-#print(data)
+print(data)
+
 
 #Fetch only items from response data
 items_data = data['items'] 
