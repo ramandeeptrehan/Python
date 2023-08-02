@@ -17,3 +17,9 @@ main: the file main.py (the Python "module").
 app: the object created inside of main.py with the line app = FastAPI().
 
 --reload: make the server restart after code changes. Only do this for development.
+
+## To find process ids listening at port 8000
+lsof -i tcp:8000
+
+## To kill a process using its id
+kill -9 11427
